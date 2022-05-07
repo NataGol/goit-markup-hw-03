@@ -31,10 +31,13 @@ body {
     text-decoration: none;
 }
 
+
 .main-div {
     display: flex;
     align-items: center;
+    height: 80px;
 }
+
 
 .main-nav {
     display: flex;
@@ -64,8 +67,8 @@ body {
 }
  .site-nav .link {
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
  }
 
 .list-contact {
@@ -220,6 +223,10 @@ ul {
     justify-content: space-between;
 }
 
+.list-img img {
+    width: 370px;
+}
+
 .section-team {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -229,6 +236,10 @@ ul {
 .team-list {
     display: flex;
     justify-content: space-between;
+}
+
+.team-list img {
+    width: 270px;
 }
 
 .team-list .title{
@@ -365,9 +376,10 @@ address {
 .list-content {
     margin: 15px;
     width: 370px;
-    
     border: 1px solid rgba(238, 238, 238, 1);
 }
+
+
 
 
 
